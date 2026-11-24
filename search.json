@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "GPS tracks of mallards tagged near Lake Constance—a lake bordered by Germany, Switzerland, and Austria—span central Europe and extend east toward the Baltic region. The mapped fixes range from about 47° to 54°N and 8° to 24°E. Most recorded speeds are low, while the fastest movements are more prominent in summer.\nThe data, recorded from 2007 to 2017, come from Korner, Sauter, Fiedler, and Jenni via Movebank (CC BY). Explore individual routes on the Map, or compare monthly speed distributions on Seasons."
+  },
+  {
+    "objectID": "seasons.html",
+    "href": "seasons.html",
+    "title": "Seasons",
+    "section": "",
+    "text": "Picking joint bandwidth of 0.0381"
+  }
+]
