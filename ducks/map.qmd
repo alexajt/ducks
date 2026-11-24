@@ -32,11 +32,13 @@ saveRDS(mallards, "../data/mallards.rds")
 ```
 
 ```{r}
+#| include: false
 mallards |>
   count(duck_id, sort = TRUE)
 ```
 
 ```{r}
+#| include: false
 mallards |>
   summarise(
     min_latitude = min(lat, na.rm = TRUE),

@@ -3,6 +3,7 @@ project:
 
 execute:
   echo: false
+  message: false
 
 website:
   title: "Mallard Duck Movement"
@@ -12,6 +13,8 @@ website:
         text: Home
       - href: map.qmd
         text: Map
+      - href: seasons.qmd
+        text: Seasons
 
 
 
