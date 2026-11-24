@@ -5,9 +5,17 @@ execute:
   echo: false
   message: false
 
+format:
+  html:
+    theme: cosmo
+    title-block-banner: true
+    toc: false
+
 website:
   title: "Mallard Duck Movement"
   navbar:
+    background: "#174f5c"
+    foreground: "#ffffff"
     left:
       - href: index.qmd
         text: Home

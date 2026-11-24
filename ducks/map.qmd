@@ -11,7 +11,8 @@ library(rnaturalearth)
 
 ```{r}
 #| cache: true
-mallards <- read_csv("../data/mallards.csv") |>
+#| message: false
+mallards <- read_csv("../data/mallards.csv", show_col_types = FALSE) |>
   mutate(
     timestamp = lubridate::ymd_hms(timestamp),
     month_num = lubridate::month(timestamp),
